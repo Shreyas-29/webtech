@@ -1,8 +1,7 @@
 import GoogleProvider from 'next-auth/providers/google';
 import NextAuth from 'next-auth/next';
-import { signIn } from 'next-auth/react';
 
-export default NextAuth({
+export const authOptions = {
     providers: [
         GoogleProvider({
             name: 'Google',
@@ -14,4 +13,5 @@ export default NextAuth({
         signOut: '/'
     },
     secret: process.env.JWT_SECRET!,
-});
+}
+export default NextAuth(authOptions)
