@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import Cart from './cart';
 import Posts from './posts';
 import Createpost from './createpost';
 import Dashboard from './dashboard';
 import Profile from './profile';
-import { useRouter } from 'next/router'
 import Head from 'next/head';
 import { MdHomeMax } from 'react-icons/md';
 import { FaUserEdit } from "react-icons/fa";
@@ -17,7 +16,6 @@ import { MdArticle } from "react-icons/md";
 function Home() {
 
 
-    const router = useRouter();
     const [currentPage, setCurrentPage] = useState('dashboard');
 
     // useEffect(() => {
