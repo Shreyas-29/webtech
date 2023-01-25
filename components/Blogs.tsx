@@ -88,7 +88,7 @@ function Blogs({ blogs }: any) {
                     </div>
                     <div className='lg:col-span-4 col-span-1 relative'>
                         <CategoryWidget blogs={blogs} />
-                        <TopicWidget blogs={blogs} />
+                        <TopicWidget />
                     </div>
                 </div>
 
