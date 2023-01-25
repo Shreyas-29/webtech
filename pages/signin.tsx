@@ -173,7 +173,7 @@ const SigninPage = () => {
                             <p className='text-sm text-neutral-700 mt-6 text-center w-3/4'>
                                 By signing up, I agree to the Terms of Services and Privacy Policy
                             </p>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </section>

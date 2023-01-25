@@ -11,7 +11,6 @@ function About() {
         getAuthor()
             .then((result) => setAuthor(result));
     }, []);
-    console.log(author);
 
     return (
         <section className='relative'>

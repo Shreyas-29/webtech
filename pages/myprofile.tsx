@@ -7,7 +7,6 @@ function MyProfile() {
 
     const [type, setType] = useState('password');
     const { data: session } = useSession();
-    console.log(session);
 
     const togglePassword = () => {
         if (type === 'password') {

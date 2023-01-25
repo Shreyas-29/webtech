@@ -17,7 +17,6 @@ import { IoMdClose } from 'react-icons/io';
 
 
 function ArticleDetails({ post }: any) {
-    console.log(post);
 
     const copyUrl = window.location.href;
 

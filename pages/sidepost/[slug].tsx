@@ -69,7 +69,6 @@ function ArticleDetails({ post }: any) {
         e.preventDefault();
         const userValue = e.target.value;
         window.localStorage.setItem(e.target.id, userValue);
-        console.log(userValue);
     }
     const handleSubmit = () => {
 

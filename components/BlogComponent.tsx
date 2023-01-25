@@ -6,8 +6,6 @@ import Link from 'next/link';
 import moment from 'moment';
 
 function Blog({ report, journal }: any) {
-  // console.log(journal.length);
-  // console.log(journal)
 
   const [liked, setLiked] = useState(false);
   const [count, setCount] = useState(25);

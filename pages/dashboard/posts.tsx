@@ -9,7 +9,6 @@ function Posts() {
     const blog = blogs.map((item: any) => item.node);
     const article = blog.map((item: any) => item)
 
-    console.log(article);
     
 
     useEffect(() => {

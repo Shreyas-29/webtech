@@ -35,7 +35,6 @@ function Blog() {
     const singlePost = post.map((item: any) => item.node);
     const singleReport = report.map((item: any) => item.node);
     const journals = journal.map((item: any) => item.node);
-    // console.log(singleReport);
 
 
     const toggleLike = () => {

@@ -16,7 +16,6 @@ function Products() {
 
     const products = product.map((item: any) => item.node);
 
-    console.log(products);
 
     return (
         <section>
